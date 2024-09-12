@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian City Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        h1 {
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .no-result {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Indian City Search Engine</h1>
+    <input type="text" id="search" placeholder="Search for a city..." onkeyup="searchCity()">
+    
+    <table id="cityTable">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>State</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- City Data will be populated here -->
+             
+        </tbody>
+    </table>
+    <p id="noResult" class="no-result" style="display:none;">No results found</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
