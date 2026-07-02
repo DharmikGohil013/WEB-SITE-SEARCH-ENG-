@@ -5543,7 +5543,7 @@
                 "width": 40,
                 "height": 40
               },
-              "snippet": "<a href=\"assets/img/Dharmik Gohil Resume.pdf\" class=\"dock-item\" data-tooltip=\"Resume\" download=\"\">",
+              "snippet": "<a href=\"assets/img/Dharmik Gohil Game Desginer.pdf\" class=\"dock-item\" data-tooltip=\"Resume\" download=\"\">",
               "nodeLabel": "section#hero > div.macos-dock > div.dock-items > a.dock-item",
               "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
             }
